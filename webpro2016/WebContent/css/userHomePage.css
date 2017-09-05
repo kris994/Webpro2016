@@ -1,0 +1,441 @@
+.row{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+#wrapper {
+    padding-left: 70px;
+    transition: all .4s ease 0s;
+    height: 100%
+}
+
+#sidebar-wrapper {
+    margin-left: -150px;
+    left: 70px;
+    width: 150px;
+    background: #222;
+    position: fixed;
+    height: 100%;
+    z-index: 10000;
+    transition: all .4s ease 0s;
+}
+
+.sidebar-nav {
+    display: block;
+    float: left;
+    width: 150px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#page-content-wrapper {
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+}
+#wrapper.active {
+    padding-left: 150px;
+}
+#wrapper.active #sidebar-wrapper {
+    left: 150px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+#sidebar_menu li a, .sidebar-nav li a {
+    color: #999;
+    display: block;
+    float: left;
+    text-decoration: none;
+    width: 150px;
+    background: #252525;
+    border-top: 1px solid #373737;
+    border-bottom: 1px solid #1A1A1A;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -o-transition: background .5s;
+    -ms-transition: background .5s;
+    transition: background .5s;
+}
+.sidebar_name {
+    padding-top: 25px;
+    color: #fff;
+    opacity: .7;
+}
+
+.sidebar-nav li {
+  line-height: 40px;
+  text-indent: 20px;
+}
+
+.sidebar-nav li a {
+  color: #999999;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+#main_icon
+{
+    float:right;
+   padding-right: 65px;
+   padding-top:20px;
+}
+.sub_icon
+{
+    float:right;
+   padding-right: 65px;
+   padding-top:10px;
+}
+.content-header {
+  height: 65px;
+  line-height: 65px;
+}
+
+.content-header h1 {
+  margin: 0;
+  margin-left: 20px;
+  line-height: 65px;
+  display: inline-block;
+}
+
+
+#wrapper {
+    padding-left: 70px;
+    transition: all .4s ease 0s;
+}
+#sidebar-wrapper {
+    left: 70px;
+}
+#wrapper.active {
+    padding-left: 150px;
+}
+#wrapper.active #sidebar-wrapper {
+    left: 150px;
+    width: 150px;
+    transition: all .4s ease 0s;
+}
+
+#map {
+	min-width: 400px;
+	width: 80%;
+	height: 99%;
+	display: inline-block;
+}
+
+.form-control {
+    margin: 10px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-left: 10%;
+    border-color: grey;
+}
+
+.form-control2 {
+    margin: 10px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: grey;
+}
+
+.form-control3 {
+    margin: 10px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: grey;
+}
+
+
+.btn {
+    border-radius: 10px;
+    width: 18%;
+	margin: auto;
+    border-width: 1;
+    border-color: white;
+    background-color: gainsboro;
+    padding: 15px;
+}
+
+.btn2 {
+    border-radius: 10px;
+    width: 100%;
+	margin: auto;
+    border-width: 1;
+    border-color: white;
+    background-color: #c0c0c0;
+    padding: 15px;
+}
+
+.space { margin-top: 300px; }
+
+br {
+  margin:1.5em 0;/* FF for instance */
+  line-height:3em;/* chrome for instance */
+}
+
+
+.thumbnail {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  
+  border-radius: 10px;
+  border-width: 1;
+}
+
+.userDiv:nth-child(2n+1) {
+  height: 140px;
+  position: relative;
+  
+  
+  border-radius: 20px;
+  background-color: #c0c0c0;
+  width: 100%;
+
+	
+}
+
+.userDiv:nth-child(2n) {
+  height: 140px;
+  position: relative;
+  
+  
+  border-radius: 20px;
+  background-color: #969696;
+  width: 100%;
+
+	
+}
+
+.name {
+  position: absolute;
+  margin: 0;
+  top: 10px;
+  height: 55px;
+  left: 150px;
+}
+
+.userButton {
+  position: absolute;
+  top: 50px;
+  height: 50px;
+  left: 80%;
+  
+  border-radius: 10px;
+  width: 13%;
+  margin: auto;
+  border-width: 1;
+  border-color: white;
+  background-color: gainsboro;
+  padding: 15px;
+}
+
+.delButton {
+  position: absolute;
+  top: 120px;
+  height: 50px;
+  left: 80%;
+  
+  border-radius: 10px;
+  width: 13%;
+  margin: auto;
+  border-width: 1;
+  border-color: white;
+  background-color: gainsboro;
+  padding: 15px;
+}
+
+.delCommentButton {
+  position: absolute;
+  top: 280px;
+  height: 50px;
+  left: 85%;
+  
+  border-radius: 10px;
+  width: 13%;
+  margin: auto;
+  border-width: 1;
+  border-color: white;
+  background-color: gainsboro;
+  padding: 15px;
+}
+
+.disComButton{
+
+  width: 100%;
+  height: 50px;
+  right: 10%;
+  border-radius: 50% / 100%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: gainsboro;
+  padding: 15px;
+}
+
+.delSnippetButton {
+  position: absolute;
+  top: 100px;
+  height: 80px;
+  left: 85%;
+  
+  border-radius: 10px;
+  width: 13%;
+  margin: auto;
+  border-width: 1;
+  border-color: white;
+  background-color: gainsboro;
+  padding: 15px;
+}
+
+.snippetButton {
+  position: absolute;
+  top: 20px;
+  height: 80px;
+  left: 85%;
+  
+  border-radius: 10px;
+  width: 13%;
+  margin: auto;
+  border-width: 1;
+  border-color: white;
+  background-color: gainsboro;
+  padding: 15px;
+}
+
+
+.oneEventDivSC{
+  height: 200px;
+  position: relative;
+  
+  
+  border-radius: 0px;
+  background-color: #c0c0c0;
+  width: 100%;
+
+	
+}
+
+.oneEventDivCB{
+  height: 200px;
+  position: relative;
+  left: 100px;
+  
+  margin: 10px;
+  width: 90%;
+  padding: 10px;
+  border-radius: 7px;
+  border-width: 1px;
+  border-color: grey;
+
+	
+}
+
+.oneEventDivCC:nth-child(2n+1){
+  height: 380px;
+  position: relative;
+  
+  
+  border-radius: 20px;
+  background-color: #c0c0c0;
+  width: 100%;
+
+	
+}
+
+.oneEventDivCC:nth-child(2n){
+  height: 380px;
+  position: relative;
+  
+  
+  border-radius: 20px;
+  background-color: #969696;
+  width: 100%;
+
+	
+}
+
+.oneEventDiv:nth-child(2n+1) {
+  height: 200px;
+  position: relative;
+  
+  
+  border-radius: 20px;
+  background-color: #c0c0c0;
+  width: 100%;
+
+	
+}
+
+.oneEventDiv:nth-child(2n) {
+  height: 200px;
+  position: relative;
+  
+  
+  border-radius: 20px;
+  background-color: #969696;
+  width: 100%;
+
+	
+}
+
+
+ .dataPart1 { 
+ 	text-align: left; 
+	font-size: 16px; 
+ 	margin-right: 20px; 
+ 	position: absolute;
+  	top: 5px;
+  	left: 20px;
+ 	
+} 
+
+ .dataPart2 { */
+ 	text-align: left; 
+ 	font-size: 16px; 
+ 	margin-right: 20px; 
+ 	margin-bottom: 15px; 
+ 	position: absolute;
+ 	top: 40px;
+  	left: 40px;
+ } 
+
+ .dataPart b { 
+ 	width: 120px; 
+	   display: inline-block;
+} 

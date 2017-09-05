@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		
+		<title>Log In</title>
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.serialize-object.js"> </script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/logIn.js"> </script>
+        <link rel="stylesheet" type="text/css" href="css/logIn.css" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>	
+        <script src="js/modernizr.custom.63321.js"></script>		
+	</head>
+
+	
+<div class="text-center" style="padding:20px 0">
+	<div class="logo">login</div>
+
+	<div class="login-form-1">
+		<form id="logInForm" class="text-left">
+			<div class="login-form-main-message"></div>
+			<div class="main-login-form">
+				<div class="login-group">
+					<div class="form-group">
+						<label for="lg_username" class="sr-only">Username</label>
+						<input type="text" class="form-control" id="username" name="username" >
+					</div>
+					<div class="form-group">
+						<label for="lg_password" class="sr-only">Password</label>
+						<input type="password" class="form-control	" id="password" name="password" >
+					</div>
+					
+				</div>
+				<button type="submit" name="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
+			</div>
+			<div class="etc-login-form">
+				<p>new user? <a href="signUp.html" >create new account</a></p>
+			</div>
+			
+			<input type="text" name="firsName" id="firsName" value="a" style="display:none">
+			<input type="text" name="lastName" value="a" style="display:none">
+			<input type="text" name="email" value="a" style="display:none">
+			<input type="text" name="telephone" value="a" style="display:none">
+			<input type="text" name="imageName" value="a" style="display:none">	
+		</form>
+	</div>
+</div>
+
+</html>
